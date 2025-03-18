@@ -202,3 +202,20 @@ if __name__ == "__main__":
     import sys
     sys.exit(main())
 ``` 
+
+
+任务ID/名称 -> Git仓库脚本路径的映射规则：
+- 模块名/task{任务ID}.py
+例如：
+- login-task1 -> login/task1.py
+- user-task2 -> user/task2.py
+
+
+### 命名规范
+scripts/
+  ├── login/
+  │   ├── task1.py  -> login-task1
+  │   └── task2.py  -> login-task2
+  ├── user/
+  │   ├── task1.py  -> user-task1
+  │   └── task2.py  -> user-task2
